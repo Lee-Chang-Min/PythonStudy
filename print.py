@@ -22,6 +22,7 @@ print('web site')
 print()
 
 #file 옵션
+from fcntl import DN_DELETE
 import sys
 print
 print('Learn Python', file = sys.stdout)
@@ -65,4 +66,5 @@ print('{:f}' .format(3.21654654654654))
 print('%06.2f' % (3.126565465412))
 print('{:06.2f}' .format(3.126565465412))
 
-#################
+######
+########
