@@ -1,3 +1,5 @@
+# 참조 : https://www.python-course.eu/python3_formatted_output.php
+
 print('Hello python')
 
 #print 사용법, 기본출력
