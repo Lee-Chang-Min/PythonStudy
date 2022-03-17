@@ -77,7 +77,39 @@ print('c - ', c.values())
 
 print('a - ', list(a.values()))
 print('b - ', list(b.values()))
-
+print('>>>>>>>>>>>>')
 print('a - ', a.items())
 print('b - ', b.items())
 print('c - ', c.items())
+
+print()
+
+print('a - ', a.pop('name'))
+print('a - ', a)
+print('c - ', c.pop('arr'))
+print('c - ', c)
+
+print()
+print('f - ', f.popitem()) # 랜덤으로 하나씩 꺼내온다 
+print('f - ', f)
+print('f - ', f.popitem())
+print('f - ', f)
+
+print()
+#키를 포함하고 있는지 조회가 가능하다
+print('a-', 'birth' in a)
+print('a-', 'city' in d)
+
+a['test'] = 'test_dict'
+print('a- ', a)
+
+a['address'] = 'dj'
+print('a - ', a)
+
+a.update(birth='910904')
+print('a - ', a)
+
+temp = {'address' : 'Busan'}
+a.update(temp)
+print('a -', a)
+
