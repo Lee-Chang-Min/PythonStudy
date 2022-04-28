@@ -131,7 +131,6 @@ def func_final(x,y,func):
 func_final(10,20, lambda x,y :x*y)
     
 
-   
     
     
     
